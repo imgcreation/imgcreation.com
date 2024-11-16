@@ -1,0 +1,22 @@
+[
+    {
+        "heading": "Commercials",
+        "photo": "/photos/commercials.jpg",
+        "link": "/services/commercials"
+    },
+    {
+        "heading": "Kids",
+        "photo": "/photos/Kids.jpg",
+        "link": "/services/kids"
+    },
+    {
+        "heading": "Portfolio",
+        "photo": "/photos/portfolio.jpg",
+        "link": "/services/portfolio"
+    },
+    {
+        "heading": "Weddings",
+        "photo": "/photos/weddings.png",
+        "link": "/services/weddings"
+    }
+]
