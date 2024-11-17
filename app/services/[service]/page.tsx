@@ -39,9 +39,9 @@ async function getServicePageData(service: string): Promise<IServicePage> {
 }
 
 interface PageParams {
-  params: {
+  params: Promise<{
     service: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({
