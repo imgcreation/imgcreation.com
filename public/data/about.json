@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "title": "Img Creation",
+    "description": "Make memories with your photos",
+    "keywords": "home, welcome, landing"
+  },
+  "hero": {
+    "heading": "About",
+    "background": "https://organicthemes.com/demo/photographer-block/files/2022/11/about-01.jpg"
+  },
+  "content": {
+    "heading": "About Us",
+    "body": "We are a team of photographers who are passionate about capturing the essence of individuals through the lens of artistry. Each portrait tells a unique story, frozen in time with careful attention to lighting, composition, and emotion."
+  }
+}

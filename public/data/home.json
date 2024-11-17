@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "title": "Img Creation",
+        "description": "Make memories with your photos",
+        "keywords": "home, welcome, landing"
+    },
+    "slideshow": [
+        {
+            "heading": "Commercials",
+            "photo": "/photos/commercials.jpg",
+            "link": "/services/commercials"
+        },
+        {
+            "heading": "Kids",
+            "photo": "/photos/Kids.jpg",
+            "link": "/services/kids"
+        },
+        {
+            "heading": "Portfolio",
+            "photo": "/photos/portfolio.jpg",
+            "link": "/services/portfolio"
+        },
+        {
+            "heading": "Weddings",
+            "photo": "/photos/weddings.png",
+            "link": "/services/weddings"
+        }
+    ],
+    "social": {
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://www.twitter.com",
+        "instagram": "https://www.instagram.com"
+    }
+}
