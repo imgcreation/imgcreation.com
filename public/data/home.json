@@ -6,9 +6,9 @@
     },
     "slideshow": [
         {
-            "heading": "Commercials",
-            "photo": "/photos/commercials.jpg",
-            "link": "/services/commercials"
+            "heading": "Weddings",
+            "photo": "/photos/weddings.png",
+            "link": "/services/weddings"
         },
         {
             "heading": "Kids",
@@ -16,14 +16,14 @@
             "link": "/services/kids"
         },
         {
+            "heading": "Commercials",
+            "photo": "/photos/commercials.jpg",
+            "link": "/services/commercials"
+        },
+        {
             "heading": "Portfolio",
             "photo": "/photos/portfolio.jpg",
             "link": "/services/portfolio"
-        },
-        {
-            "heading": "Weddings",
-            "photo": "/photos/weddings.png",
-            "link": "/services/weddings"
         }
     ],
     "social": {
