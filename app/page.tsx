@@ -1,19 +1,29 @@
+import type { Metadata } from 'next'
 import { Header } from "@/components/ui/header";
 import { Slideshow } from "@/components/ui/slideshow";
 import { Footer } from "@/components/ui/footer";
 import fs from "fs";
 import path from "path";
-import { Slide } from "@/lib/types";
+import { IHomePage } from "@/lib/types";
 
-async function getSlides() {
-  const filePath = path.join(process.cwd(), "public", "slideshow.json");
+async function getHomePageData() {
+  const filePath = path.join(process.cwd(), "public", "data", "home.json");
   const jsonData = fs.readFileSync(filePath, "utf-8");
-  const slides: Slide[] = JSON.parse(jsonData);
-  return slides;
+  const homeJson: IHomePage = JSON.parse(jsonData);
+  return homeJson;
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  const { meta } = await getHomePageData();
+ 
+  return {
+    title: meta.title,
+    description: meta.description,
+  }
 }
 
 export default async function Home() {
-  const slides = await getSlides();
+  const { slideshow: slides } = await getHomePageData();
 
   return (
     <div className="min-h-screen flex flex-col">

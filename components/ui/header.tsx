@@ -1,34 +1,38 @@
 "use client";
 
 import Link from "next/link";
-import {
-  Menu,
-} from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const MenuItems = () => (
   <>
-    <Link href="/" className="block py-2 hover:text-teal-500">
+    <Link href="/" className="block py-2 px-4 hover:text-teal-500">
       Home
     </Link>
-    <Link href="/slideshows" className="block py-2 hover:text-teal-500">
-      Slideshows
-    </Link>
-    <Link href="/galleries" className="block py-2 hover:text-teal-500">
-      Galleries
-    </Link>
-    <Link href="/about" className="block py-2 hover:text-teal-500">
+    <Link href="/about" className="block py-2 px-4 hover:text-teal-500">
       About
     </Link>
-    <Link href="/templates" className="block py-2 hover:text-teal-500">
-      Templates
+    <Link href="/services/kids" className="block py-2 px-4 hover:text-teal-500">
+      Kids
     </Link>
-    <Link href="/order-prints" className="block py-2 hover:text-teal-500">
-      Order Prints
+    <Link
+      href="/services/commercials"
+      className="block py-2 px-4 hover:text-teal-500"
+    >
+      Commercials
     </Link>
-    <Link href="/booking" className="block py-2 hover:text-teal-500">
-      Booking
+    <Link
+      href="/services/portfolio"
+      className="block py-2 px-4 hover:text-teal-500"
+    >
+      Portfolio
+    </Link>
+    <Link
+      href="/services/weddings"
+      className="block py-2 px-4 hover:text-teal-500"
+    >
+      Weddings
     </Link>
   </>
 );
