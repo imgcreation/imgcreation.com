@@ -3,7 +3,7 @@ import { Header } from "@/components/ui/header";
 import { Footer } from "@/components/ui/footer";
 import fs from "fs";
 import path from "path";
-import { IServicePage } from "@/lib/types";
+import { IServicePage, IMenu } from "@/lib/types";
 import { Carousel } from "@/components/ui/carousel";
 import { Gallery } from "@/components/ui/gallery";
 
@@ -23,6 +23,13 @@ export async function generateStaticParams() {
   return services.map((service) => ({
     service,
   }));
+}
+
+async function getMenuData() {
+  const filePath = path.join(process.cwd(), "public", "data", "menu.json");
+  const jsonData = fs.readFileSync(filePath, "utf-8");
+  const menuJson: IMenu[] = JSON.parse(jsonData);
+  return menuJson;
 }
 
 async function getServicePageData(service: string): Promise<IServicePage> {
@@ -69,10 +76,11 @@ const Content = ({ heading, body }: { heading: string, body: string}) => (
 export default async function Page({ params }: PageParams) {
   const { service } = await params;
   const { slideshow, content, gallery } = await getServicePageData(service);
+  const menu = await getMenuData();
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <Header menu={menu} />
       <main className="flex-1 container mx-auto px-4 py-4">
         <Carousel images={slideshow} />
         <Content {...content} />

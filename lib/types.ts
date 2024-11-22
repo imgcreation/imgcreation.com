@@ -10,6 +10,12 @@ export interface IMeta {
   keywords: string;
 }
 
+export interface IMenu {
+  name: string;
+  url: string;
+  menu: IMenu[];
+}
+
 export interface IHomePage {
   meta: IMeta;
   slideshow: Slide[];

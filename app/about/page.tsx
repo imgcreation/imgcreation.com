@@ -3,8 +3,15 @@ import { Header } from "@/components/ui/header";
 import { Footer } from "@/components/ui/footer";
 import fs from "fs";
 import path from "path";
-import { IAboutPage } from "@/lib/types";
+import { IAboutPage, IMenu } from "@/lib/types";
 import { Hero } from "@/components/ui/hero";
+
+async function getMenuData() {
+  const filePath = path.join(process.cwd(), "public", "data", "menu.json");
+  const jsonData = fs.readFileSync(filePath, "utf-8");
+  const menuJson: IMenu[] = JSON.parse(jsonData);
+  return menuJson;
+}
 
 async function getPageData() {
   const filePath = path.join(process.cwd(), "public", "data", "about.json");
@@ -40,10 +47,11 @@ const Content = ({ heading, body } : { heading: string, body: string}) => {
 
 export default async function Home() {
   const { hero, content } = await getPageData();
+  const menu = await getMenuData();
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <Header menu={menu} />
       <main className="flex-1 container mx-auto px-4 py-4">
         <Hero {...hero} />
         <Content {...content} />

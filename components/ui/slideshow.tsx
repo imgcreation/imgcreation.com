@@ -2,9 +2,10 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
 import { Slide } from "@/lib/types";
 import Link from 'next/link'
+import { Button } from '@/components/ui/button';
 
 interface SlideShowProps {
   slides: Slide[];
@@ -13,6 +14,8 @@ interface SlideShowProps {
 export const Slideshow = ({ slides }: SlideShowProps) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(3);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const SLIDE_INTERVAL = 3000; // 3 seconds per slide
 
   const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % (slides.length - slidesToShow + 1));
@@ -28,6 +31,10 @@ export const Slideshow = ({ slides }: SlideShowProps) => {
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
+  };
+
+  const togglePlayPause = () => {
+    setIsPlaying(prev => !prev);
   };
 
   useEffect(() => {
@@ -60,10 +67,39 @@ export const Slideshow = ({ slides }: SlideShowProps) => {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [nextSlide, prevSlide]);
+
+  useEffect(() => {
+    let slideTimer: NodeJS.Timeout;
+    
+    if (isPlaying) {
+      slideTimer = setInterval(() => {
+        nextSlide();
+      }, SLIDE_INTERVAL);
+    }
+
+    return () => {
+      if (slideTimer) {
+        clearInterval(slideTimer);
+      }
+    };
+  }, [isPlaying, nextSlide]);
+
   return (
     <>
       {slides.length > 0 ? (
         <div className="max-w-6xl mx-auto relative pb-10">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={togglePlayPause}
+            className="absolute top-4 right-4 z-10"
+          >
+            {isPlaying ? (
+              <Pause className="h-6 w-6" />
+            ) : (
+              <Play className="h-6 w-6" />
+            )}
+          </Button>
           <div className="overflow-hidden">
             <div
               className="flex transition-transform duration-300 ease-in-out"
