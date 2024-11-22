@@ -3,53 +3,43 @@
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
+import Image from "next/image";
+import { IMenu } from "@/lib/types";
 
-const MenuItems = () => (
+const MenuItems = ({menu}: { menu: IMenu[]}) => ( // Fixed prop typing
   <>
-    <Link href="/" className="block py-2 px-4 hover:text-teal-500">
-      Home
-    </Link>
-    <Link href="/about" className="block py-2 px-4 hover:text-teal-500">
-      About
-    </Link>
-    <Link href="/services/kids" className="block py-2 px-4 hover:text-teal-500">
-      Kids
-    </Link>
-    <Link
-      href="/services/commercials"
-      className="block py-2 px-4 hover:text-teal-500"
-    >
-      Commercials
-    </Link>
-    <Link
-      href="/services/portfolio"
-      className="block py-2 px-4 hover:text-teal-500"
-    >
-      Portfolio
-    </Link>
-    <Link
-      href="/services/weddings"
-      className="block py-2 px-4 hover:text-teal-500"
-    >
-      Weddings
-    </Link>
+    {menu.map((item) => (
+      <Link
+        key={item.name}
+        href={item.url}
+        className="block py-2 px-4 hover:text-teal-500"
+      >
+        {item.name}
+      </Link>
+    ))}
   </>
 );
 
-export const Header = () => {
+export const Header = ({ menu }: { menu: IMenu[]}) => {
   return (
     <header className="bg-white py-4">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col lg:flex-row justify-around items-center">
           <Link
             href="/"
-            className="text-4xl font-light text-teal-500 font-['Dancing_Script'] mb-4"
+            className="text-4xl font-light text-teal-500 font-['Dancing_Script'] mb-4 lg:mb-0"
           >
-            IMG CREATION
+            <Image
+              width={200}
+              height={150}
+              src="/photos/logo.png"
+              title="imgcreation-logo"
+              alt="imgcreation logo"
+            />
           </Link>
           <nav className="hidden lg:flex space-x-6 text-sm uppercase tracking-wider">
-            <MenuItems />
+            <MenuItems menu={menu} />
           </nav>
           <Sheet>
             <SheetTrigger asChild>
@@ -58,9 +48,12 @@ export const Header = () => {
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent>
-              <nav className="flex flex-col space-y-4 text-sm uppercase tracking-wider mt-6">
-                <MenuItems />
+            <SheetContent side="right" className="w-[240px]">
+              <SheetTitle className="text-xl font-semibold mb-4">
+                Menu
+              </SheetTitle>
+              <nav className="flex flex-col gap-4 mt-6">
+                <MenuItems menu={menu} />
               </nav>
             </SheetContent>
           </Sheet>

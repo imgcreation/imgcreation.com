@@ -8,28 +8,19 @@
         "url": "/about"
     },
     {
-        "name": "Services",
-        "menu": [
-            {
-                "name": "Kids",
-                "url": "/services/kids"
-            },
-            {
-                "name": "Commercials",
-                "url": "/services/commercials"
-            },
-            {
-                "name": "Portfolio",
-                "url": "/services/portfolio"
-            },
-            {
-                "name": "Weddings",
-                "url": "/services/weddings"
-            }
-        ]
+        "name": "Kids",
+        "url": "/services/kids"
     },
     {
-        "name": "Contact",
-        "url": "/contact"
+        "name": "Commercials",
+        "url": "/services/commercials"
+    },
+    {
+        "name": "Portfolio",
+        "url": "/services/portfolio"
+    },
+    {
+        "name": "Weddings",
+        "url": "/services/weddings"
     }
 ]
