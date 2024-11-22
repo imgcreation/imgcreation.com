@@ -33,7 +33,7 @@ export const Header = ({ menu }: { menu: IMenu[]}) => {
             <Image
               width={200}
               height={150}
-              src="/photos/imgcreation-logo.png"
+              src="/photos/logo.png"
               title="imgcreation-logo"
               alt="imgcreation logo"
             />
