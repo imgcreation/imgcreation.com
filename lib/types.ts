@@ -28,8 +28,9 @@ export interface ISlideShow {
 }
 
 export interface IGallery {
-  url: string;
-  alt: string;
+  src: string; 
+  alt: string, 
+  caption: string
 }
 
 export interface IServicePage {

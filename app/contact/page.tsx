@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
     };
 }
 
-const Content = ({ heading, body }: { heading: string, body: string }) => {
+const Content = () => {
     return (
         <div className="max-w-3xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
@@ -106,7 +106,7 @@ const Content = ({ heading, body }: { heading: string, body: string }) => {
 };
 
 export default async function Contact() {
-    const { hero, content } = await getPageData();
+    const { hero } = await getPageData();
     const menu = await getMenuData();
 
     return (
@@ -114,7 +114,7 @@ export default async function Contact() {
             <Header menu={menu} />
             <main className="flex-1 container mx-auto px-4 py-4">
                 <Hero {...hero} />
-                <Content {...content} />
+                <Content />
             </main>
             <Footer />
         </div>
