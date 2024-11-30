@@ -116,7 +116,7 @@ export const Slideshow = ({ slides }: SlideShowProps) => {
                   style={{ flex: `0 0 ${100 / slidesToShow}%` }}
                 >
                   <div className="p-2">
-                    <div className="relative aspect-[3/4] group overflow-hidden rounded-lg">
+                    <div className="relative aspect-[3/4] md:aspect-[3/5] group overflow-hidden rounded-lg">
                       <Image
                         src={slide.photo}
                         alt={slide.heading}

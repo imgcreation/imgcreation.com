@@ -7,23 +7,28 @@
     "slideshow": [
         {
             "heading": "Weddings",
-            "photo": "/photos/weddings.png",
+            "photo": "/photos/slideshow/weddings.png",
             "link": "/services/weddings"
         },
         {
             "heading": "Kids",
-            "photo": "/photos/kid.jpg",
+            "photo": "/photos/slideshow/kid.jpg",
             "link": "/services/kids"
         },
         {
             "heading": "Commercials",
-            "photo": "/photos/commercials.jpg",
+            "photo": "/photos/slideshow/commercials.jpg",
             "link": "/services/commercials"
         },
         {
             "heading": "Portfolio",
-            "photo": "/photos/portfolio.jpg",
+            "photo": "/photos/slideshow/portfolio.jpg",
             "link": "/services/portfolio"
+        },
+        {
+            "heading": "Studio on Rent",
+            "photo": "/photos/slideshow/studio.png",
+            "link": "/contact"
         }
     ],
     "social": {

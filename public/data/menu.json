@@ -22,5 +22,9 @@
     {
         "name": "Weddings",
         "url": "/services/weddings"
+    },
+    {
+        "name": "Contact",
+        "url": "/contact"
     }
 ]
