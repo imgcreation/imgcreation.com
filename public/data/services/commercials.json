@@ -6,46 +6,217 @@
     },
     "slideshow": [
       {
-        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Comm/_L7A8105.jpg",
+        "alt": "Portrait 3"
+      },
+      {
+        "url": "/photos/gallery/Comm/0L7A7063.jpg",
         "alt": "Portrait 1"
       },
       {
-        "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Comm/_L7A5659.jpg",
         "alt": "Portrait 2"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop",
-        "alt": "Portrait 3"
       }
     ],
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&auto=format&fit=crop",
-        "alt": "Gallery 1"
+        "src": "/photos/gallery/Comm/0L7A1400.jpg",
+        "alt": "Comm 1",
+        "caption": "Comm 1"
       },
       {
-        "url": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=800&auto=format&fit=crop",
-        "alt": "Gallery 2"
+        "src": "/photos/gallery/Comm/0L7A6483.jpg",
+        "alt": "Comm 2",
+        "caption": "Comm 2"
       },
       {
-        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
-        "alt": "Gallery 3"
+        "src": "/photos/gallery/Comm/0L7A6676.jpg",
+        "alt": "Comm 3",
+        "caption": "Comm 3"
       },
       {
-        "url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop",
-        "alt": "Gallery 4"
+        "src": "/photos/gallery/Comm/0L7A7063.jpg",
+        "alt": "Comm 4",
+        "caption": "Comm 4"
       },
       {
-        "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop",
-        "alt": "Gallery 5"
+        "src": "/photos/gallery/Comm/0L7A7077.jpg",
+        "alt": "Comm 5",
+        "caption": "Comm 5"
       },
       {
-        "url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=800&auto=format&fit=crop",
-        "alt": "Gallery 6"
+        "src": "/photos/gallery/Comm/0L7A7273.jpg",
+        "alt": "Comm 6",
+        "caption": "Comm 6"
+      },
+      {
+        "src": "/photos/gallery/Comm/0L7A9016.jpg",
+        "alt": "Comm 7",
+        "caption": "Comm 7"
+      },
+      {
+        "src": "/photos/gallery/Comm/Scooty.jpg",
+        "alt": "Comm 8",
+        "caption": "Comm 8"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A0640.jpg",
+        "alt": "Comm 9",
+        "caption": "Comm 9"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A0833.jpg",
+        "alt": "Comm 10",
+        "caption": "Comm 10"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A0997.jpg",
+        "alt": "Comm 11",
+        "caption": "Comm 11"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A1071.jpg",
+        "alt": "Comm 12",
+        "caption": "Comm 12"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A1141.jpg",
+        "alt": "Comm 13",
+        "caption": "Comm 13"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A1843.jpg",
+        "alt": "Comm 14",
+        "caption": "Comm 14"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A1930.jpg",
+        "alt": "Comm 15",
+        "caption": "Comm 15"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A2031.jpg",
+        "alt": "Comm 16",
+        "caption": "Comm 16"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A2407.jpg",
+        "alt": "Comm 17",
+        "caption": "Comm 17"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A2795.jpg",
+        "alt": "Comm 18",
+        "caption": "Comm 18"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A3039.jpg",
+        "alt": "Comm 19",
+        "caption": "Comm 19"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A3210.jpg",
+        "alt": "Comm 20",
+        "caption": "Comm 20"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A3396.jpg",
+        "alt": "Comm 21",
+        "caption": "Comm 21"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A4384.jpg",
+        "alt": "Comm 22",
+        "caption": "Comm 22"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A4666.jpg",
+        "alt": "Comm 23",
+        "caption": "Comm 23"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A4790.jpg",
+        "alt": "Comm 24",
+        "caption": "Comm 24"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A4993.jpg",
+        "alt": "Comm 25",
+        "caption": "Comm 25"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A5083.jpg",
+        "alt": "Comm 26",
+        "caption": "Comm 26"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A5654.jpg",
+        "alt": "Comm 27",
+        "caption": "Comm 27"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A5659.jpg",
+        "alt": "Comm 28",
+        "caption": "Comm 28"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A5990.jpg",
+        "alt": "Comm 29",
+        "caption": "Comm 29"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A6825.jpg",
+        "alt": "Comm 30",
+        "caption": "Comm 30"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A7534.jpg",
+        "alt": "Comm 31",
+        "caption": "Comm 31"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A7618.jpg",
+        "alt": "Comm 32",
+        "caption": "Comm 32"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A8090.jpg",
+        "alt": "Comm 33",
+        "caption": "Comm 33"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A8105.jpg",
+        "alt": "Comm 34",
+        "caption": "Comm 34"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A8279.jpg",
+        "alt": "Comm 35",
+        "caption": "Comm 35"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A9498.jpg",
+        "alt": "Comm 36",
+        "caption": "Comm 36"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A9571.jpg",
+        "alt": "Comm 37",
+        "caption": "Comm 37"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A9659.jpg",
+        "alt": "Comm 38",
+        "caption": "Comm 38"
+      },
+      {
+        "src": "/photos/gallery/Comm/_L7A9711.jpg",
+        "alt": "Comm 39",
+        "caption": "Comm 39"
       }
     ],
     "content": {
       "heading": "Commercials Photography",
-      "body": "Capturing the essence of individuals through the lens of artistry. Each portrait tells a unique story, frozen in time with careful attention to lighting, composition, and emotion."
+      "body": "Bring your brand to life with our professional commercial photography services. From product shots to lifestyle campaigns, we craft visually compelling images that resonate with your audience and elevate your business. Let’s tell your story through stunning visuals."
     }
   }

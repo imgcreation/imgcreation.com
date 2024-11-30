@@ -6,46 +6,152 @@
     },
     "slideshow": [
       {
-        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Portfolio/_L7A7498.jpg",
         "alt": "Portrait 1"
       },
       {
-        "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Portfolio/_L7A2088.jpg",
         "alt": "Portrait 2"
       },
       {
-        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Portfolio/_L7A5453.jpg",
         "alt": "Portrait 3"
       }
     ],
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&auto=format&fit=crop",
-        "alt": "Gallery 1"
+        "src": "/photos/gallery/Portfolio/0L7A6784.jpg",
+        "alt": "Portfolio 1",
+        "caption": "Portfolio 1"
       },
       {
-        "url": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=800&auto=format&fit=crop",
-        "alt": "Gallery 2"
+        "src": "/photos/gallery/Portfolio/_L7A0239.jpg",
+        "alt": "Portfolio 2",
+        "caption": "Portfolio 2"
       },
       {
-        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
-        "alt": "Gallery 3"
+        "src": "/photos/gallery/Portfolio/_L7A0488.jpg",
+        "alt": "Portfolio 3",
+        "caption": "Portfolio 3"
       },
       {
-        "url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop",
-        "alt": "Gallery 4"
+        "src": "/photos/gallery/Portfolio/_L7A1053.jpg",
+        "alt": "Portfolio 4",
+        "caption": "Portfolio 4"
       },
       {
-        "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop",
-        "alt": "Gallery 5"
+        "src": "/photos/gallery/Portfolio/_L7A1655.jpg",
+        "alt": "Portfolio 5",
+        "caption": "Portfolio 5"
       },
       {
-        "url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=800&auto=format&fit=crop",
-        "alt": "Gallery 6"
+        "src": "/photos/gallery/Portfolio/_L7A1685.jpg",
+        "alt": "Portfolio 6",
+        "caption": "Portfolio 6"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A1781.jpg",
+        "alt": "Portfolio 7",
+        "caption": "Portfolio 7"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A2088.jpg",
+        "alt": "Portfolio 8",
+        "caption": "Portfolio 8"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A3118.jpg",
+        "alt": "Portfolio 9",
+        "caption": "Portfolio 9"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A3178.jpg",
+        "alt": "Portfolio 10",
+        "caption": "Portfolio 10"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A3217.jpg",
+        "alt": "Portfolio 11",
+        "caption": "Portfolio 11"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A3334.jpg",
+        "alt": "Portfolio 12",
+        "caption": "Portfolio 12"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A3366.jpg",
+        "alt": "Portfolio 13",
+        "caption": "Portfolio 13"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A3857.jpg",
+        "alt": "Portfolio 14",
+        "caption": "Portfolio 14"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A5258.jpg",
+        "alt": "Portfolio 15",
+        "caption": "Portfolio 15"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A5285.jpg",
+        "alt": "Portfolio 16",
+        "caption": "Portfolio 16"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A5349.jpg",
+        "alt": "Portfolio 17",
+        "caption": "Portfolio 17"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A5453.jpg",
+        "alt": "Portfolio 18",
+        "caption": "Portfolio 18"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A6333_New.jpg",
+        "alt": "Portfolio 19",
+        "caption": "Portfolio 19"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A6345.jpg",
+        "alt": "Portfolio 20",
+        "caption": "Portfolio 20"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A6370.jpg",
+        "alt": "Portfolio 21",
+        "caption": "Portfolio 21"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A7498.jpg",
+        "alt": "Portfolio 22",
+        "caption": "Portfolio 22"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A7687.jpg",
+        "alt": "Portfolio 23",
+        "caption": "Portfolio 23"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A8478.jpg",
+        "alt": "Portfolio 24",
+        "caption": "Portfolio 24"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A8494.jpg",
+        "alt": "Portfolio 25",
+        "caption": "Portfolio 25"
+      },
+      {
+        "src": "/photos/gallery/Portfolio/_L7A8594.jpg",
+        "alt": "Portfolio 26",
+        "caption": "Portfolio 26"
       }
     ],
     "content": {
       "heading": "Portfolio Photography",
-      "body": "Capturing the essence of individuals through the lens of artistry. Each portrait tells a unique story, frozen in time with careful attention to lighting, composition, and emotion."
+      "body": "Showcase your best self with our professional portfolio photography. Whether you're an aspiring model, actor, or creative professional, we create striking images that highlight your unique style and personality. Let us help you make a lasting impression."
     }
   }

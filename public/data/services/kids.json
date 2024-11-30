@@ -6,46 +6,137 @@
   },
   "slideshow": [
     {
-      "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop",
+      "url": "/photos/gallery/Kids/IMG_8218.jpg",
       "alt": "Portrait 1"
     },
     {
-      "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop",
+      "url": "/photos/gallery/Kids/_L7A4621.jpg",
       "alt": "Portrait 2"
     },
     {
-      "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop",
+      "url": "/photos/gallery/Kids/_L7A4507.jpg",
       "alt": "Portrait 3"
     }
   ],
   "gallery": [
     {
-      "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&auto=format&fit=crop",
-      "alt": "Gallery 1"
+      "src": "/photos/gallery/Kids/0L7A4537.jpg",
+      "alt": "Gallery 1",
+      "caption": "Gallery 1"
     },
     {
-      "url": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=800&auto=format&fit=crop",
-      "alt": "Gallery 2"
+      "src": "/photos/gallery/Kids/Beautiful Baby6.jpg",
+      "alt": "Gallery 2",
+      "caption": "Gallery 2"
     },
     {
-      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
-      "alt": "Gallery 3"
+      "src": "/photos/gallery/Kids/IMG_8218.jpg",
+      "alt": "Gallery 3",
+      "caption": "Gallery 3"
     },
     {
-      "url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop",
-      "alt": "Gallery 4"
+      "src": "/photos/gallery/Kids/_L7A0489.jpg",
+      "alt": "Gallery 4",
+      "caption": "Gallery 4"
     },
     {
-      "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop",
-      "alt": "Gallery 5"
+      "src": "/photos/gallery/Kids/_L7A0623.jpg",
+      "alt": "Gallery 5",
+      "caption": "Gallery 5"
     },
     {
-      "url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=800&auto=format&fit=crop",
-      "alt": "Gallery 6"
+      "src": "/photos/gallery/Kids/_L7A0855.jpg",
+      "alt": "Gallery 6",
+      "caption": "Gallery 6"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A1839.jpg",
+      "alt": "Gallery 7",
+      "caption": "Gallery 7"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A1917.jpg",
+      "alt": "Gallery 8",
+      "caption": "Gallery 8"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A2018.jpg",
+      "alt": "Gallery 9",
+      "caption": "Gallery 9"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A3246.jpg",
+      "alt": "Gallery 10",
+      "caption": "Gallery 10"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A3281.jpg",
+      "alt": "Gallery 11",
+      "caption": "Gallery 11"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A4369.jpg",
+      "alt": "Gallery 12",
+      "caption": "Gallery 12"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A4388.jpg",
+      "alt": "Gallery 13",
+      "caption": "Gallery 13"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A4449.jpg",
+      "alt": "Gallery 14",
+      "caption": "Gallery 14"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A4507.jpg",
+      "alt": "Gallery 15",
+      "caption": "Gallery 15"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A4543.jpg",
+      "alt": "Gallery 16",
+      "caption": "Gallery 16"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A4621.jpg",
+      "alt": "Gallery 17",
+      "caption": "Gallery 17"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A6047.jpg",
+      "alt": "Gallery 18",
+      "caption": "Gallery 18"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A7588.jpg",
+      "alt": "Gallery 19",
+      "caption": "Gallery 19"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A7670.jpg",
+      "alt": "Gallery 20",
+      "caption": "Gallery 20"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A8002.jpg",
+      "alt": "Gallery 21",
+      "caption": "Gallery 21"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A8654.jpg",
+      "alt": "Gallery 22",
+      "caption": "Gallery 22"
+    },
+    {
+      "src": "/photos/gallery/Kids/_L7A8688.jpg",
+      "alt": "Gallery 23",
+      "caption": "Gallery 23"
     }
   ],
   "content": {
     "heading": "Kids Photography",
-    "body": "Capturing the essence of individuals through the lens of artistry. Each portrait tells a unique story, frozen in time with careful attention to lighting, composition, and emotion."
+    "body": "Capture the magic of childhood with our vibrant and heartfelt kids' photography. From playful moments to tender smiles, we specialize in preserving the joy and wonder of your little ones. Let us create timeless memories you’ll cherish forever."
   }
 }

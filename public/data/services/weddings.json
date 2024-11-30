@@ -6,46 +6,107 @@
     },
     "slideshow": [
       {
-        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Weddings/Carousal A1 copy.jpg",
         "alt": "Portrait 1"
       },
       {
-        "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Weddings/4.002A1612 edt-Edited ps fb2 copy.jpg",
         "alt": "Portrait 2"
       },
       {
-        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop",
+        "url": "/photos/gallery/Weddings/Aadhya-new.jpg",
         "alt": "Portrait 3"
       }
     ],
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&auto=format&fit=crop",
-        "alt": "Gallery 1"
+        "src": "/photos/gallery/Weddings/4.002A1612 edt-Edited ps fb2 copy.jpg",
+        "alt": "Weddings 1",
+        "caption": "Weddings 1"
       },
       {
-        "url": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?w=800&auto=format&fit=crop",
-        "alt": "Gallery 2"
+        "src": "/photos/gallery/Weddings/4.jpg",
+        "alt": "Weddings 2",
+        "caption": "Weddings 2"
       },
       {
-        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop",
-        "alt": "Gallery 3"
+        "src": "/photos/gallery/Weddings/4B0A8070.jpg",
+        "alt": "Weddings 3",
+        "caption": "Weddings 3"
       },
       {
-        "url": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop",
-        "alt": "Gallery 4"
+        "src": "/photos/gallery/Weddings/Aadhya-original.jpg",
+        "alt": "Weddings 4",
+        "caption": "Weddings 4"
       },
       {
-        "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop",
-        "alt": "Gallery 5"
+        "src": "/photos/gallery/Weddings/Arpita & Subhra (1).jpg",
+        "alt": "Weddings 5",
+        "caption": "Weddings 5"
       },
       {
-        "url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=800&auto=format&fit=crop",
-        "alt": "Gallery 6"
+        "src": "/photos/gallery/Weddings/Arpita & Subhra (6).jpg",
+        "alt": "Weddings 6",
+        "caption": "Weddings 6"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Bhagyashri & Purnendu (4).jpg",
+        "alt": "Weddings 7",
+        "caption": "Weddings 7"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Bhagyashri & Purnendu (7).jpg",
+        "alt": "Weddings 8",
+        "caption": "Weddings 8"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Bridal 4.jpg",
+        "alt": "Weddings 9",
+        "caption": "Weddings 9"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Carousal A1 copy.jpg",
+        "alt": "Weddings 10",
+        "caption": "Weddings 10"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Carousal c1 copy.jpg",
+        "alt": "Weddings 11",
+        "caption": "Weddings 11"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Mehak (5).jpg",
+        "alt": "Weddings 12",
+        "caption": "Weddings 12"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Mona (4).jpg",
+        "alt": "Weddings 13",
+        "caption": "Weddings 13"
+      },
+      {
+        "src": "/photos/gallery/Weddings/NIK_3619 color.jpg",
+        "alt": "Weddings 14",
+        "caption": "Weddings 14"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Post2.jpg",
+        "alt": "Weddings 15",
+        "caption": "Weddings 15"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Surbhi2.jpg",
+        "alt": "Weddings 16",
+        "caption": "Weddings 16"
+      },
+      {
+        "src": "/photos/gallery/Weddings/Suvam weds Sayanka (8).jpg",
+        "alt": "Weddings 17",
+        "caption": "Weddings 17"
       }
     ],
     "content": {
       "heading": "Weddings Photography",
-      "body": "Capturing the essence of individuals through the lens of artistry. Each portrait tells a unique story, frozen in time with careful attention to lighting, composition, and emotion."
+      "body": "Relive the magic of your special day with our elegant and timeless wedding photography. We capture every moment—from the first look to the last dance—creating beautiful memories that tell the story of your love. Let us preserve the essence of your wedding day forever."
     }
   }
