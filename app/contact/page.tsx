@@ -39,7 +39,7 @@ const Content = () => {
                     <h2 className="text-2xl font-semibold">Get in Touch</h2>
                     <p className="text-sm text-gray-500 flex items-center space-x-2">
                         <Phone className="text-primary" size={24} />
-                        <span>
+                        <span className="font-bold">
                             <a href="tel:+919289890075" className="hover:underline">+91-9289890075</a>
                             {" / "}
                             <a href="tel:+919289890076" className="hover:underline">+91-9289890076</a>
@@ -82,7 +82,7 @@ const Content = () => {
                             <div>
                                 <p className="font-medium">Kids Photography</p>
                                 <a
-                                    href="https://wa.me/9289890075?text=I%27m%20interested%20in%20your%20kid%20photography"
+                                    href="https://wa.me/9289890076?text=I%27m%20interested%20in%20your%20kid%20photography"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-primary underline"
