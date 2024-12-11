@@ -31,8 +31,8 @@ export const Header = ({ menu }: { menu: IMenu[]}) => {
             className="text-4xl font-light text-teal-500 font-['Dancing_Script'] mb-4 lg:mb-0"
           >
             <Image
-              width={200}
-              height={150}
+              width={300}
+              height={100}
               src="/photos/logo.svg"
               title="imgcreation-logo"
               alt="imgcreation logo"
