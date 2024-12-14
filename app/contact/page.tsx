@@ -49,7 +49,7 @@ const Content = () => {
                         <div className="flex items-center space-x-3">
                             <div className="flex items-center space-x-2">
                                 <a
-                                    href="https://wa.me/9289890075?text=I%27m%20interested%20in%20your%20wedding%20photography"
+                                    href="https://wa.me/9289890075?text=I%27m%20interested%20in%20wedding%20photography"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -59,7 +59,7 @@ const Content = () => {
                             <div>
                                 <p className="font-medium">Wedding Photography</p>
                                 <a
-                                    href="https://wa.me/9289890075?text=I%27m%20interested%20in%20your%20wedding%20photography"
+                                    href="https://wa.me/9289890075?text=I%27m%20interested%20in%20wedding%20photography"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-primary underline"
@@ -72,7 +72,7 @@ const Content = () => {
                         <div className="flex items-center space-x-3">
                             <div className="flex items-center space-x-2">
                                 <a
-                                    href="https://wa.me/9289890076?text=I%27m%20interested%20in%20your%20kid%20photography"
+                                    href="https://wa.me/9289890076?text=I%27m%20interested%20in%20kids%20photography"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -82,7 +82,7 @@ const Content = () => {
                             <div>
                                 <p className="font-medium">Kids Photography</p>
                                 <a
-                                    href="https://wa.me/9289890076?text=I%27m%20interested%20in%20your%20kid%20photography"
+                                    href="https://wa.me/9289890076?text=I%27m%20interested%20in%20kids%20photography"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-primary underline"
