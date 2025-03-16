@@ -7,12 +7,12 @@
     "slideshow": [
         {
             "heading": "Weddings",
-            "photo": "/photos/slideshow/weddings.png",
+            "photo": "/photos/slideshow/wedding-hp.jpg",
             "link": "/services/weddings"
         },
         {
             "heading": "Kids",
-            "photo": "/photos/slideshow/kid.jpg",
+            "photo": "/photos/slideshow/kids-hp.jpg",
             "link": "/services/kids"
         },
         {
@@ -24,6 +24,11 @@
             "heading": "Portfolio",
             "photo": "/photos/slideshow/portfolio.jpg",
             "link": "/services/portfolio"
+        },
+        {
+            "heading": "Maternity",
+            "photo": "/photos/slideshow/maternity-hp.jpg",
+            "link": "/services/maternity"
         },
         {
             "heading": "Studio on Rent",
