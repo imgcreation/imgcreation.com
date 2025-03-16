@@ -6,7 +6,11 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 interface AutoCarouselProps {
-  images: { url: string; alt: string }[];
+  images: { 
+    url: string; 
+    alt: string;
+    className?: string;
+  }[];
 }
 
 export const Carousel = ({ images }: AutoCarouselProps) => {
@@ -44,7 +48,7 @@ export const Carousel = ({ images }: AutoCarouselProps) => {
                 src={image.url}
                 alt={image.alt}
                 fill
-                className="object-cover"
+                className={`object-cover ${image.className || ''}`}
                 priority={index === 0}
               />
             </div>

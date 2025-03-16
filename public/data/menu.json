@@ -24,6 +24,10 @@
         "url": "/services/weddings"
     },
     {
+        "name": "Maternity",
+        "url": "/services/maternity"
+    },
+    {
         "name": "Contact",
         "url": "/contact"
     }
