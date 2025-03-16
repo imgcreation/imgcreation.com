@@ -6,6 +6,7 @@ import path from "path";
 import { IServicePage, IMenu } from "@/lib/types";
 import { Carousel } from "@/components/ui/carousel";
 import { Gallery } from "@/components/ui/gallery";
+import Image from "next/image"
 
 export const dynamicParams = false;
 
@@ -62,7 +63,7 @@ export async function generateMetadata({
   };
 }
 
-const Content = ({ heading, body }: { heading: string, body: string}) => (
+const Content = ({ heading, body }: { heading: string; body: string }) => (
   <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-6">
     <h1 className="text-3xl sm:text-4xl font-serif text-center mb-4 text-gray-900 px-4">
       {heading}
@@ -85,6 +86,13 @@ export default async function Page({ params }: PageParams) {
         <Carousel images={slideshow} />
         <Content {...content} />
         <Gallery images={gallery} />
+        <Image
+          className="hidden object-top"
+          src="/photos/gallery/Maternity/0L7A1661BW.jpg"
+          alt="Test hidden image"
+          width={100}
+          height={100}
+        />
       </main>
       <Footer />
     </div>
