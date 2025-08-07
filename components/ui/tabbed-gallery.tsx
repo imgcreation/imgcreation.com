@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Gallery } from "./gallery";
 import { VideoGallery } from "./video-gallery";
 import { IGallery, IVideoGallery } from "@/lib/types";
@@ -15,6 +15,27 @@ export const TabbedGallery = ({ images, videos }: TabbedGalleryProps) => {
   // Only show tabs if videos are available
   const hasVideos = videos && videos.length > 0;
 
+  // Handle URL hash on component mount
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const hash = window.location.hash.toLowerCase();
+      if (hash === "#video" && hasVideos) {
+        setActiveTab("videos");
+      } else if (hash === "#image") {
+        setActiveTab("images");
+      }
+    }
+  }, [hasVideos]);
+
+  // Update URL hash when tab changes
+  const handleTabChange = (tab: "images" | "videos") => {
+    setActiveTab(tab);
+    if (typeof window !== "undefined") {
+      const newHash = tab === "videos" ? "#video" : "#image";
+      window.history.replaceState(null, "", window.location.pathname + newHash);
+    }
+  };
+
   if (!hasVideos) {
     return <Gallery images={images} />;
   }
@@ -25,7 +46,7 @@ export const TabbedGallery = ({ images, videos }: TabbedGalleryProps) => {
       <div className="flex justify-center mb-8">
         <div className="flex bg-gray-100 rounded-lg p-1">
           <button
-            onClick={() => setActiveTab("images")}
+            onClick={() => handleTabChange("images")}
             className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${
               activeTab === "images"
                 ? "bg-white text-gray-900 shadow-sm"
@@ -35,7 +56,7 @@ export const TabbedGallery = ({ images, videos }: TabbedGalleryProps) => {
             Images
           </button>
           <button
-            onClick={() => setActiveTab("videos")}
+            onClick={() => handleTabChange("videos")}
             className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${
               activeTab === "videos"
                 ? "bg-white text-gray-900 shadow-sm"
