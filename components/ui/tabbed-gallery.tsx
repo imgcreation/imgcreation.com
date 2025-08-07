@@ -47,20 +47,20 @@ export const TabbedGallery = ({ images, videos }: TabbedGalleryProps) => {
         <div className="flex bg-gray-100 rounded-lg p-1">
           <button
             onClick={() => handleTabChange("images")}
-            className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${
+            className={`px-6 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
               activeTab === "images"
-                ? "bg-white text-gray-900 shadow-sm"
-                : "text-gray-600 hover:text-gray-900"
+                ? "bg-[#00A896] text-white shadow-lg transform scale-105"
+                : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
             }`}
           >
             Images
           </button>
           <button
             onClick={() => handleTabChange("videos")}
-            className={`px-6 py-2 rounded-md text-sm font-medium transition-colors ${
+            className={`px-6 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
               activeTab === "videos"
-                ? "bg-white text-gray-900 shadow-sm"
-                : "text-gray-600 hover:text-gray-900"
+                ? "bg-[#00A896] text-white shadow-lg transform scale-105"
+                : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
             }`}
           >
             Videos
