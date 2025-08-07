@@ -33,10 +33,16 @@ export interface IGallery {
   caption: string
 }
 
+export interface IVideoGallery {
+  youtubeUrl: string;
+  title: string;
+}
+
 export interface IServicePage {
   meta: IMeta;
   slideshow: ISlideShow[];
   gallery: IGallery[];
+  videoGallery?: IVideoGallery[];
   content: {
     heading: string;
     body: string

@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import { IServicePage, IMenu } from "@/lib/types";
 import { Carousel } from "@/components/ui/carousel";
-import { Gallery } from "@/components/ui/gallery";
+import { TabbedGallery } from "@/components/ui/tabbed-gallery";
 import Image from "next/image"
 
 export const dynamicParams = false;
@@ -77,7 +77,7 @@ const Content = ({ heading, body }: { heading: string; body: string }) => (
 
 export default async function Page({ params }: PageParams) {
   const { service } = await params;
-  const { slideshow, content, gallery } = await getServicePageData(service);
+  const { slideshow, content, gallery, videoGallery } = await getServicePageData(service);
   const menu = await getMenuData();
 
   return (
@@ -86,7 +86,7 @@ export default async function Page({ params }: PageParams) {
       <main className="flex-1 container mx-auto px-4 py-4">
         <Carousel images={slideshow} />
         <Content {...content} />
-        <Gallery images={gallery} />
+        <TabbedGallery images={gallery} videos={videoGallery} />
         <Image
           className="hidden object-top"
           src="/photos/gallery/Maternity/0L7A1661BW.jpg"

@@ -8,6 +8,10 @@
         "url": "/about"
     },
     {
+        "name": "Weddings",
+        "url": "/services/weddings"
+    },
+    {
         "name": "Kids",
         "url": "/services/kids"
     },
@@ -18,10 +22,6 @@
     {
         "name": "Portfolio",
         "url": "/services/portfolio"
-    },
-    {
-        "name": "Weddings",
-        "url": "/services/weddings"
     },
     {
         "name": "Maternity",
